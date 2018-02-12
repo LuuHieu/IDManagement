@@ -31,6 +31,7 @@ import com.ibm.iot.android.iotstarter.activities.TutorialPagerActivity;
 import com.ibm.iot.android.iotstarter.activities.WebActivity;
 import com.ibm.iot.android.iotstarter.utils.Constants;
 
+
 /**
  * The Log fragment displays text command messages that have been received by the application.
  */

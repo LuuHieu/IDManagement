@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_find_similar_face.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_find_similar_face.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_select_image.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_select_image.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_verification_person.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_verification_person.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_person.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\item_person.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_detection.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_detection.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_person_group.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\item_person_group.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_verification.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_verification.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_grouping_log.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_grouping_log.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_identification.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_identification.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_person.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_person.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_person_group_with_checkbox.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\item_person_group_with_checkbox.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_detection_log.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_detection_log.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_find_similar_face_log.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_find_similar_face_log.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_verification_menu.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_verification_menu.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_verification_log.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_verification_log.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_add_face_to_person.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_add_face_to_person.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_face.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\item_face.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_grouping.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_grouping.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_person_group_list.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_person_group_list.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_log.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\item_log.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_face_group.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\item_face_group.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_face_with_description.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\item_face_with_description.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_person_group.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_person_group.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_face_with_checkbox.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\item_face_with_checkbox.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_identification_log.xml",
+        "source": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_identification_log.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\project\\IDManagement\\IoT\\iot-android\\facerecognition\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\4000169\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\eedaf68dfbc63dd420b0e8c674d1d2c3\\res\\layout\\abc_popup_menu_item_layout.xml"
+    }
+]

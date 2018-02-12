@@ -1,11 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 25
     buildToolsVersion '26.0.2'
 
     defaultConfig {
-        applicationId "com.microsoft.projectoxford.faceapisample"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 1

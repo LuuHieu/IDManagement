@@ -1,1 +1,1 @@
-include ':app', ':facerecognition'
+include ':app', ':facerecognition', ':facetracker'
