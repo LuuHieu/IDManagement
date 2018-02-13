@@ -169,13 +169,18 @@ public class PersonGroupListActivity extends AppCompatActivity {
 
             @Override
             public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.menu_delete_items:
-                        deleteSelectedItems();
-                        return true;
-                    default:
-                        return false;
+                if(item.getItemId() == R.id.menu_delete_items){
+                    deleteSelectedItems();
+                    return true;
                 }
+                return false;
+//                switch (item.getItemId()) {
+//                    case R.id.menu_delete_items:
+//                        deleteSelectedItems();
+//                        return true;
+//                    default:
+//                        return false;
+//                }
             }
 
             @Override

@@ -1,0 +1,535 @@
+[
+    {
+        "id": "32c0404f.681eb",
+        "type": "tab",
+        "label": "device1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "98d82d75.5ba19",
+        "type": "function",
+        "z": "32c0404f.681eb",
+        "name": "Handle Text",
+        "func": "msg.eventOrCommandType = \"text\";\nmsg.payload = JSON.stringify({\"d\":{\"text\":\"Received text message\"}});\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 670,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c99a077d.f5fee8",
+        "type": "debug",
+        "z": "32c0404f.681eb",
+        "name": "dv2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 337.1999969482422,
+        "y": 116.00003051757812,
+        "wires": []
+    },
+    {
+        "id": "fe95bf3.962064",
+        "type": "ibmiot in",
+        "z": "32c0404f.681eb",
+        "authentication": "boundService",
+        "apiKey": "",
+        "inputType": "evt",
+        "ruleId": "",
+        "deviceId": "mydevice2",
+        "applicationId": "",
+        "deviceType": "",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IoT App In",
+        "service": "registered",
+        "allDevices": false,
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": false,
+        "qos": "0",
+        "x": 64,
+        "y": 291,
+        "wires": [
+            [
+                "504578ee.4fe5c8"
+            ]
+        ]
+    },
+    {
+        "id": "504578ee.4fe5c8",
+        "type": "switch",
+        "z": "32c0404f.681eb",
+        "name": "event",
+        "property": "eventType",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "accel",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "touchmove",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "text",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 278,
+        "y": 286,
+        "wires": [
+            [
+                "b975df0c.ec5ff"
+            ],
+            [
+                "4b983dfb.1ad484"
+            ],
+            [
+                "afeca27b.94489",
+                "e1b793a8.c82b8"
+            ]
+        ]
+    },
+    {
+        "id": "b975df0c.ec5ff",
+        "type": "function",
+        "z": "32c0404f.681eb",
+        "name": "Handle accel",
+        "func": "var accelZ = msg.payload.d.acceleration_z;\nvar r = 0.0;\nvar b = 0.0;\nvar g = 0.0;\nif (accelZ > 0) {\n\t//g = 255.0;\n\tr = 178;\n\tg = 102;\n\tb = 255;\n} else if (accelZ < 0) {\n\t//r = 255.0;\n\tr = 102;\n\tg = 255;\n\tb = 102;\n} else {\n\tr = 104;\n\tg = 109;\n\tb = 115;\n}\na = 1.0;\n\nmsg.eventOrCommandType = \"color\";\nmsg.payload = JSON.stringify({\"d\":{\"r\":r,\"b\":b,\"g\":g,\"alpha\":a}});\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 447,
+        "y": 209,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b2231d9.e8ab8",
+        "type": "function",
+        "z": "32c0404f.681eb",
+        "name": "Handle touchmove",
+        "func": "msg.eventOrCommandType = \"text\";\nmsg.payload = JSON.stringify({\"d\":{\"text\":\"Received touch message from APP\"}});\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 622,
+        "y": 285,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1b793a8.c82b8",
+        "type": "debug",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "active": false,
+        "console": "false",
+        "complete": "true",
+        "x": 655,
+        "y": 117,
+        "wires": []
+    },
+    {
+        "id": "4b983dfb.1ad484",
+        "type": "switch",
+        "z": "32c0404f.681eb",
+        "name": "ended",
+        "property": "payload.d.ended",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 440,
+        "y": 286,
+        "wires": [
+            [
+                "8b2231d9.e8ab8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "afeca27b.94489",
+        "type": "switch",
+        "z": "32c0404f.681eb",
+        "name": "light or text",
+        "property": "payload.d.text",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "light",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "alert",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 444,
+        "y": 379,
+        "wires": [
+            [
+                "4bfe9f3a.44096"
+            ],
+            [
+                "9caed357.d043f",
+                "1d217063.69b9e",
+                "71add676.7c0618",
+                "dd4b6c41.3853c"
+            ],
+            [
+                "98d82d75.5ba19"
+            ]
+        ]
+    },
+    {
+        "id": "4bfe9f3a.44096",
+        "type": "function",
+        "z": "32c0404f.681eb",
+        "name": "Handle Light",
+        "func": "msg.eventOrCommandType = \"light\";\nmsg.payload = JSON.stringify({\"d\":{\"text\":\"Received light message\"}});\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 670,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62e41d4e.3c14f4",
+        "type": "comment",
+        "z": "32c0404f.681eb",
+        "name": "Type",
+        "info": "msg.payload.d.type contains the type of the message \nreceived.\n\nThe iOS and Android apps currently send messages of the\nfollowing types:\n\n - accel: Contains x,y,z acceleration values\n   Properties:\n    - acceleration_x\n    - acceleration_y\n    - acceleration_z\n    - roll\n    - pitch\n    - yaw\n - touchmove: Contains x,y start and end coordinates\n   Properties:\n    - startX\n    - endX\n    - diffX\n    - diffY\n - text: Contains some text message\n   Properties:\n    - text",
+        "x": 277,
+        "y": 325,
+        "wires": []
+    },
+    {
+        "id": "dd41e16c.488e9",
+        "type": "comment",
+        "z": "32c0404f.681eb",
+        "name": "Text & Light",
+        "info": "If the text message is just \"light\", then send a light \ncommand message back to the device to toggle the light.\n\nOtherwise, just send a text command message back to the device.",
+        "x": 444,
+        "y": 411,
+        "wires": []
+    },
+    {
+        "id": "e67748ae.a98168",
+        "type": "comment",
+        "z": "32c0404f.681eb",
+        "name": "touchmove",
+        "info": "the final message the apps send for a touchmove will contain\nan ended property.\n\nWhen we get the ended message, send a text command message\nback to the device.",
+        "x": 444,
+        "y": 318,
+        "wires": []
+    },
+    {
+        "id": "6713bf9.0bbfc4",
+        "type": "comment",
+        "z": "32c0404f.681eb",
+        "name": "accel",
+        "info": "Send color command messages back to the device based upon\nthe value of acceleration_z from accel event messages.",
+        "x": 448,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "eaf2a7e.e490e58",
+        "type": "debug",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 1130,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "1d217063.69b9e",
+        "type": "http request",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "url": "http://13.93.106.70:3000/api/org.acme.biz.net3.PersonInfor/168558833",
+        "tls": "",
+        "x": 730,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9caed357.d043f",
+        "type": "change",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "alertrrequest",
+                "pt": "msg",
+                "to": "1234",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.d.text",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 720,
+        "wires": [
+            [
+                "de7469b4.31e718"
+            ]
+        ]
+    },
+    {
+        "id": "de7469b4.31e718",
+        "type": "http request",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "url": "https://httpbin.org/get?x={{{payload}}}&y={{{alertrrequest}}}",
+        "tls": "",
+        "x": 890,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1e3f0786.ec6388",
+        "type": "inject",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 200,
+        "y": 600,
+        "wires": [
+            [
+                "9210f832.27e1f8"
+            ]
+        ]
+    },
+    {
+        "id": "ec1733ff.5f699",
+        "type": "ibmiot in",
+        "z": "32c0404f.681eb",
+        "authentication": "boundService",
+        "apiKey": "",
+        "inputType": "evt",
+        "logicalInterfaceId": "",
+        "ruleId": "",
+        "deviceId": "mydevice2",
+        "applicationId": "",
+        "deviceType": "+",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "registered",
+        "allDevices": false,
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": 0,
+        "x": 90,
+        "y": 380,
+        "wires": [
+            [
+                "ff3ac95a.a78258"
+            ]
+        ]
+    },
+    {
+        "id": "ff3ac95a.a78258",
+        "type": "debug",
+        "z": "32c0404f.681eb",
+        "name": "dv1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 260,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "9210f832.27e1f8",
+        "type": "link out",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "links": [
+            "340225ba.103c6a"
+        ],
+        "x": 315,
+        "y": 620,
+        "wires": [],
+        "inputLabels": [
+            "dsdsd"
+        ]
+    },
+    {
+        "id": "71add676.7c0618",
+        "type": "http request",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "url": "http://13.93.106.70:3000/api/org.acme.biz.net3.Image/image1",
+        "tls": "",
+        "x": 710,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "544bf923.9c88c8",
+        "type": "function",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "func": "msg.eventOrCommandType = \"alert\";\nif(msg.deviceId==\"mydevice2\")\nmsg.deviceId = \"mydevice2\";\nelse\nmsg.deviceId = \"mydevice2\";\n//msg.topic = \"iot-2/type/id/mydevice2/cmd/text/fmt/json\"\nmsg.payload = JSON.stringify({\"d\":{\"text\":\"Work Order 123456 created!\"}});\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 460,
+        "wires": [
+            [
+                "f9d5a28a.16e96"
+            ]
+        ]
+    },
+    {
+        "id": "f9d5a28a.16e96",
+        "type": "ibmiot out",
+        "z": "32c0404f.681eb",
+        "authentication": "boundService",
+        "apiKey": "",
+        "outputType": "cmd",
+        "deviceId": "mydevice2",
+        "deviceType": "Android",
+        "eventCommandType": "text",
+        "format": "json",
+        "data": "{\"d\":{\"value\":\"text\"}}",
+        "qos": 0,
+        "name": "IBM IoT",
+        "service": "registered",
+        "x": 1040,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "dd4b6c41.3853c",
+        "type": "function",
+        "z": "32c0404f.681eb",
+        "name": "forward",
+        "func": "msg.eventOrCommandType = \"alert\";\nif(msg.deviceId==\"mydevice2\")\nmsg.deviceId = \"mydevice2\";\nelse\nmsg.deviceId = \"mydevice2\";\n//msg.topic = \"iot-2/type/id/mydevice2/cmd/text/fmt/json\"\n//msg.payload = JSON.stringify({\"d\":{\"text\":\"Work Order 123456 created!\"}});\nmsg.payload=\" msg.payload\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 720,
+        "y": 500,
+        "wires": [
+            [
+                "f9d5a28a.16e96"
+            ]
+        ]
+    },
+    {
+        "id": "1a5d9e2.20f5b62",
+        "type": "inject",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 460,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc8c5d6b.32c4a",
+        "type": "function",
+        "z": "32c0404f.681eb",
+        "name": "",
+        "func": "msg.eventOrCommandType = \"alert\";\nmsg.payload=\"msg.dfgfgh\"\nmsg.deviceId = \"mydevice2\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 950,
+        "y": 520,
+        "wires": [
+            [
+                "f9d5a28a.16e96",
+                "eaf2a7e.e490e58"
+            ]
+        ]
+    }
+]

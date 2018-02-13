@@ -27,6 +27,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.google.android.gms.samples.vision.face.facetracker.FaceTrackerActivity;
 import com.google.android.gms.security.ProviderInstaller;
 import com.ibm.iot.android.iotstarter.IoTStarterApplication;
 import com.ibm.iot.android.iotstarter.R;
@@ -174,7 +176,9 @@ public class LoginPagerFragment extends IoTStarterPagerFragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                handleActivate();
+//                handleActivate();
+                Intent intent1 = new Intent(getActivity(), FaceTrackerActivity.class);
+                startActivity(intent1);
             }
         });
 
