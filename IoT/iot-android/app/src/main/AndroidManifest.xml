@@ -78,7 +78,7 @@
             android:name=".TestBase64Image"
             android:label="@string/title_activity_test_base64_image"></activity>
 
-        <activity android:name="com.google.android.gms.samples.vision.face.facetracker.FaceTrackerActivity"
+        <activity android:name=".activities.FaceTrackerActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="fullSensor">
 

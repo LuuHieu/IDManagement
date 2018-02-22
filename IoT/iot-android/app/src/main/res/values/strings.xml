@@ -120,4 +120,7 @@
     <string name="title_activity_test_base64_image">TestBase64Image</string>
     <!--string name="tutorial_pageC2_text">Step 1: Enter your IoT organization ID\nStep 2: Enter your device ID\nStep 3: Enter your Authorization Token</string-->
     <!-- End Tutorial Strings -->
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
 </resources>
