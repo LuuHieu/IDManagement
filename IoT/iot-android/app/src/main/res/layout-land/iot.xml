@@ -22,14 +22,14 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              tools:context="com.ibm.iot.android.iotstarter.fragments.IoTPagerFragment"
+              tools:context="com.prdcv.iot.android.app.fragments.IoTPagerFragment"
               android:id="@+id/iotRoot"
         >
-    <com.ibm.iot.android.iotstarter.views.DrawingView
+    <com.prdcv.iot.android.app.views.DrawingView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:id="@+id/drawing">
-    </com.ibm.iot.android.iotstarter.views.DrawingView>
+    </com.prdcv.iot.android.app.views.DrawingView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

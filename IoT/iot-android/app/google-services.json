@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "63818886851",
+    "firebase_url": "https://idmanagement-iot-android.firebaseio.com",
+    "project_id": "idmanagement-iot-android",
+    "storage_bucket": "idmanagement-iot-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63818886851:android:ca771f8aa7268555",
+        "android_client_info": {
+          "package_name": "com.ibm.iot.android.iotstarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63818886851-sbpvun92cradt02j2dsrt756cn2t327v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibm.iot.android.iotstarter",
+            "certificate_hash": "ffe59eee12056816a2ddd33dd33afde9adf1503f"
+          }
+        },
+        {
+          "client_id": "63818886851-pf732uael901idf00vls99vitsijpfhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-4ADOee-kqmH5abjdSLhoKjeW6t0qqGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63818886851-pf732uael901idf00vls99vitsijpfhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

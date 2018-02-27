@@ -17,7 +17,7 @@
 *******************************************************************************/
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ibm.iot.android.iotstarter"
+    package="com.prdcv.iot.android.app"
     android:versionCode="3"
     android:versionName="2.1.0">
 
@@ -33,17 +33,17 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:name=".IoTStarterApplication"
+        android:name="com.prdcv.iot.android.app.IoTStarterApplication"
         android:icon="@drawable/ic_icon"
         android:label="@string/app_name"
         android:logo="@drawable/ic_logo"
         android:theme="@style/IoTStarterTheme"
         android:hardwareAccelerated="true">
         <activity
-            android:name=".activities.TutorialPagerActivity"
+            android:name="com.prdcv.iot.android.app.activities.TutorialPagerActivity"
             android:launchMode="standard"></activity>
         <activity
-            android:name=".activities.MainPagerActivity"
+            android:name="com.prdcv.iot.android.app.activities.MainPagerActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -54,11 +54,11 @@
         </activity>
 
         <activity
-            android:name=".activities.ProfilesActivity"
+            android:name="com.prdcv.iot.android.app.activities.ProfilesActivity"
             android:launchMode="standard">
         </activity>
         <activity
-            android:name=".activities.WebActivity"
+            android:name="com.prdcv.iot.android.app.activities.WebActivity"
             android:configChanges="orientation|screenSize"
             android:launchMode="standard">
         </activity>
@@ -75,15 +75,26 @@
         <service android:name="org.eclipse.paho.android.service.MqttService" />
 
         <activity
-            android:name=".TestBase64Image"
+            android:name="com.prdcv.iot.android.app.TestBase64Image"
             android:label="@string/title_activity_test_base64_image"></activity>
 
-        <activity android:name=".activities.FaceTrackerActivity"
+        <activity android:name="com.prdcv.iot.android.app.activities.FaceTrackerActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="fullSensor">
 
         </activity>
 
-    </application>
+        <activity android:name=".cloudservice.StorageServiceActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
 
+        </activity>
+
+    </application>
+    <service
+        android:name="com.prdcv.iot.android.app.cloudservice.MyDownloadService"
+        android:exported="false"/>
+
+    <service
+        android:name="com.prdcv.iot.android.app.cloudservice.MyUploadService"
+        android:exported="false" />
 </manifest>
