@@ -8,6 +8,50 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:63818886851:android:a5a618c4fefa026c",
+        "android_client_info": {
+          "package_name": "com.prdcv.iot.android.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63818886851-m0s96o7avqh0noaprc8rk4v7u8s81r1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prdcv.iot.android.app",
+            "certificate_hash": "acffd7d025cb48bdfeef6c6148fc3233ccc03e2f"
+          }
+        },
+        {
+          "client_id": "63818886851-pf732uael901idf00vls99vitsijpfhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-4ADOee-kqmH5abjdSLhoKjeW6t0qqGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63818886851-pf732uael901idf00vls99vitsijpfhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:63818886851:android:ca771f8aa7268555",
         "android_client_info": {
           "package_name": "com.ibm.iot.android.iotstarter"
@@ -15,11 +59,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "63818886851-sbpvun92cradt02j2dsrt756cn2t327v.apps.googleusercontent.com",
+          "client_id": "63818886851-k5g0mfbvovim2hn5rm2tmjbnot7bf2ha.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.ibm.iot.android.iotstarter",
-            "certificate_hash": "ffe59eee12056816a2ddd33dd33afde9adf1503f"
+            "certificate_hash": "acffd7d025cb48bdfeef6c6148fc3233ccc03e2f"
           }
         },
         {
