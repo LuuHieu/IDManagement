@@ -259,6 +259,7 @@ public class StorageServiceActivity extends AppCompatActivity implements View.On
         if (mDownloadUrl != null) {
             ((TextView) findViewById(R.id.picture_download_uri))
                     .setText(mDownloadUrl.toString());
+            Log.d(TAG, "Link to download file:/n" + mDownloadUrl.toString());
             findViewById(R.id.layout_download).setVisibility(View.VISIBLE);
         } else {
             ((TextView) findViewById(R.id.picture_download_uri))

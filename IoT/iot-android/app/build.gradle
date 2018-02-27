@@ -5,7 +5,7 @@ android {
     buildToolsVersion '26.0.2'
 
     defaultConfig {
-        applicationId "com.ibm.iot.android.iotstarter"
+        applicationId "com.prdcv.iot.android.app"
         minSdkVersion 16
         targetSdkVersion 21
     }

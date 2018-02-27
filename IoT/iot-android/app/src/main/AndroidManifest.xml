@@ -88,13 +88,13 @@
             android:theme="@style/Theme.AppCompat.NoActionBar">
 
         </activity>
+        <service
+            android:name="com.prdcv.iot.android.app.cloudservice.MyDownloadService"
+            android:exported="false"/>
 
+        <service
+            android:name="com.prdcv.iot.android.app.cloudservice.MyUploadService"
+            android:exported="false" />
     </application>
-    <service
-        android:name="com.prdcv.iot.android.app.cloudservice.MyDownloadService"
-        android:exported="false"/>
 
-    <service
-        android:name="com.prdcv.iot.android.app.cloudservice.MyUploadService"
-        android:exported="false" />
 </manifest>
