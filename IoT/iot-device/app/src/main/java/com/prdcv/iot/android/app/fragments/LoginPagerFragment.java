@@ -125,8 +125,6 @@ public class LoginPagerFragment extends IoTStarterPagerFragment {
         context = getActivity().getApplicationContext();
 
         updateViewStrings();
-        getActivity().findViewById(R.id.img_downloaded);
-
         // setup button listeners
         initializeButtons();
     }
